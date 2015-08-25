@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Cardo:400,700);
+
+
+*{
+  font-family: "Cardo", serif;
+  font-weight: 400;
+}
+
+.navbar-brand{
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+.jumbotron{
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(10, 70, 233, 0.8), rgba(10, 70, 233, 0.1)), url("../images/jumbotron-photo.jpg");
+  padding-bottom: 250px;
+  margin: 0px;
+  
+}
+
+/*#overlay1 {
+background: rgba(10, 70, 233, 0.5);
+overflow: hidden;
+background-size: cover;
+/*height: 205px;
+width: 1246px;*/
+/*z-index: 2;*/
+/*}*/
+
+/*.jumbotron:hover {*/
+    /*background-color: rgba(10, 70, 233, 0.5);*/
+ /*   background-image: linear-gradient(rgba(10, 70, 233, 0.8), rgba(10, 70, 233, 0.1)), url("../images/jumbotron-photo.jpg");
+}*/
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.dont-display{
+  display: none;
+  font-weight: 700;
+  color: #FFF;
+}
+
+
+
+
+#jumbotron-text2 {
+  font-weight: 700;
+  color: #FFF;
+}
+
+.jumbotron .container h1.jumbotron-text{
+  font-weight: 700;
+  color: #FFF;
+}
+
+.jumbotron .container p{
+  color: #D3D3D3;
+}
+
+.nav-image{
+  height: 35px;
+  width: 35px;
+}
+
+div#myCarousel img{
+  max-height: 200px;
+  max-width: 100px;
+  margin: 0 auto;
+}
